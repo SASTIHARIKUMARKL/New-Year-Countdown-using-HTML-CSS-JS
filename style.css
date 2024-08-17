@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4c4e52;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#count {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.section {
+    background-color: #bad0f8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section span {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.section p {
+    margin: 0;
+    font-size: 18px;
+    color: #4b4747;
+}
